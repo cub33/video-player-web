@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="data:,">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.0.3/video-js.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.0.3/video.js"></script>
+    <link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-quality-levels/2.0.9/videojs-contrib-quality-levels.min.js"></script>
+    <script src="bundle.js" defer></script>
+    <title>CPlayer</title>
+  </head>
+  <body>
+    <video
+      id="player"
+      class="video-js vjs-theme-fantasy"
+      controls
+      muted
+      preload="auto">
+      <source
+        src="http://localhost/live/123.m3u8"
+        type="application/x-mpegURL">
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript
+    </p>
+    </video>
+  </body>
+</html>
